@@ -12,21 +12,32 @@
   
   <style>
     .house-rect {
-      background-color: red;
+/*       background-color: red; */
       width: 100px;
       height: 100px;
-      position: absolute;
+      position: fixed;
+      top: 45%;
+      left: 45%;
       margin: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      border: black 20px solid;
+    }
+    
+    .roof {
+      width: 200;
+      height: 200;
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent;
+  
+      border-left: 60px solid green;
+      
     }
   </style>
   
   <body>
     <div class="house-rect">
-       
+       <div class="roof">
+         
+      </div>
     </div>
   </body>
 </html>

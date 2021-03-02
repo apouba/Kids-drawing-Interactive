@@ -11,6 +11,72 @@
   </head>
 
   <style>
+    .sun-circle {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      border-radius: 50px;
+      position: fixed;
+      top: 10%;
+      right: 10%;
+    }
+    
+    .spoke1 {
+      width: 10px;
+      height: 60px;
+      background-color: red;
+      transform: translateX(45px) translateY(-30px) rotate(0deg);
+    }
+    
+    .spoke2 {
+      width: 10px;
+      height: 60px;
+      background-color: red;
+      transform: translateX(30px) translateY(10px) rotate(45deg);
+    }
+    
+    .spoke3 {
+      width: 10px;
+      height: 60px;
+      background-color: red;
+      transform: translateX(45px) translateY(15px) rotate(45deg);
+    }
+    
+    .spoke4 {
+      width: 10px;
+      height: 60px;
+      background-color: red;
+      transform: translateX(35px) translateY(10px) rotate(45deg);
+    }
+    
+    .spoke5 {
+      width: 10px;
+      height: 60px;
+      background-color: red;
+      transform: translateX(35px) translateY(10px) rotate(45deg);
+    }
+    
+    .spoke6 {
+      width: 10px;
+      height: 60px;
+      background-color: red;
+      transform: translateX(35px) translateY(10px) rotate(45deg);
+    }
+    
+    .spoke7 {
+      width: 10px;
+      height: 60px;
+      background-color: red;
+      transform: translateX(35px) translateY(10px) rotate(45deg);
+    }
+    
+    .spoke8 {
+      width: 10px;
+      height: 60px;
+      background-color: red;
+      transform: translateX(35px) translateY(10px) rotate(45deg);
+    }
+    
     .house-rect {
       /*       background-color: red; */
       width: 100px;
@@ -139,12 +205,39 @@
   </style>
 
   <body>
-    <div class="house-rect">
-      <div class="chimney"></div>
-      <div class="roof"></div>
-    </div>
+    <section>
+      <!-- sun -->
+      <div class="sun-circle">
+        <div class="spoke1">
+          <div class="spoke2">
+            <div class="spoke3">
+              <div class="spoke4">
+                <div class="spoke5">
+                  <div class="spoke6">
+                    <div class="spoke7">
+                      <div class="spoke8">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <!-- house -->
+      <div class="house-rect">
+        <div class="chimney"></div>
+        <div class="roof"></div>
+      </div>
+    </section>
 
-    <div class="stump"></div>
+    <section>
+      <!-- tree -->
+      <div class="stump"></div>
 
       <div class="leaf1">
         <div class="leaf2">
@@ -165,8 +258,8 @@
           </div>
         </div>
       </div>
-    
-    
+    </section>
+
 
 
   </body>
